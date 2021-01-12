@@ -71,7 +71,7 @@ public class BMIDemo {
     /**
      * This is our main demo...
      */
-    static void bmidemo() {
+    void bmidemo() {
         println("--- BMI Calculator ---");
         
         float weight, height, bmi;
@@ -103,14 +103,5 @@ public class BMIDemo {
         bmi = calculateBmi(weight, height, useImperial);
         printBmiInfo(bmi);
     }
-    
-    
-    /**
-     * This is the main entry point for the application!
-     * @param args 
-     */
-    public static void main(String[] args) {
-        System.out.println("--- BMI Demo (11 Jan 2021/Mon) ---");
-        bmidemo();
-    }
 }
+
